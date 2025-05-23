@@ -1,7 +1,9 @@
 import pygame
 import random
 import sys
+import os
 
+os.environ["SDL_AUDIODRIVER"] = "dummy"
 # Initialize pygame
 pygame.init()
 
